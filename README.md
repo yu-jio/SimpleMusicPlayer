@@ -55,3 +55,5 @@ To make this widget function correctly, you **must** set up the following:
 2. Install the **WebNowPlaying Companion** extension in your Chrome/Edge browser.
 3. Download the `.rmskin` file and run the installer.
 4. Open YouTube Music in your browser and enjoy!
+
+DevientArtURL : https://www.deviantart.com/yujio03/art/SimpleMusicPlayer-3-0-1-1109940258
