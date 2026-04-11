@@ -18,7 +18,6 @@ To make this widget function correctly, you **must** set up the following:
 * **Music Controls:** Play/Pause, Next/Previous, Repeat, and Shuffle.
 * **Visual Info:** Real-time Title, Artist, Album Art, and Progress Bar.
 * **Rating System:** Quick access rating buttons.
-<img width="1088" height="648" alt="image" src="https://github.com/user-attachments/assets/92cc849f-ceef-433b-a98c-374e23653e57" />
 
 
 ## 📝 Important Notes
