@@ -1,59 +1,62 @@
 # SimpleMusicPlayer for Rainmeter
 
- A sleek and modern music player skin for Rainmeter, specifically designed for **YouTube Music**.
+A clean Rainmeter music player skin designed for YouTube Music through
+WebNowPlaying. It includes horizontal and vertical layouts, playback controls,
+album art, progress display, and an audio visualizer.
 
-<img width="1088" height="648" alt="image" src="https://github.com/user-attachments/assets/fe034306-fcc1-40aa-b119-f32533fa12f5" />
+<img width="1088" height="648" alt="SimpleMusicPlayer preview" src="https://github.com/user-attachments/assets/fe034306-fcc1-40aa-b119-f32533fa12f5" />
 
-## ⚠️ Prerequisites (Required)
-To make this widget function correctly, you **must** set up the following:
+## Features
 
-1.  **WebNowPlaying Companion:** Install this extension in your browser to sync YouTube Music with Rainmeter.
-    * [Chrome Web Store Link](https://chromewebstore.google.com/detail/webnowplaying/jfakgfcdgpghbbefmdfjkbdlibjgnbli)
-2.  **YouTube Music:** This skin is exclusively optimized for the YouTube Music web player.
+- Dynamic audio visualizer with improved peak response
+- Horizontal and vertical layout modes
+- Play, pause, next, previous, repeat, and shuffle controls
+- Real-time title, artist, album art, and progress bar
+- Quick access rating buttons
+- Bundled NanumGothic font resource
 
+## Requirements
 
-## ✨ Main Features
-* **Dynamic Audio Visualizer:** High-sensitivity visualizer with improved peak response.
-* **Dual Layouts:** Supports both **Horizontal** and **Vertical** modes.
-* **Music Controls:** Play/Pause, Next/Previous, Repeat, and Shuffle.
-* **Visual Info:** Real-time Title, Artist, Album Art, and Progress Bar.
-* **Rating System:** Quick access rating buttons.
+- [Rainmeter](https://www.rainmeter.net/)
+- YouTube Music in a Chromium-based browser
+- [WebNowPlaying Companion](https://chromewebstore.google.com/detail/webnowplaying/jfakgfcdgpghbbefmdfjkbdlibjgnbli)
 
+This skin is optimized for the YouTube Music web player. Desktop players such as
+Spotify or iTunes are not the target environment.
 
-## 📝 Important Notes
-* **Dedicated Support:** This widget is designed **only for YouTube Music** via browser. Other desktop players (Spotify, iTunes, etc.) are not supported.
-* **Unidirectional Control:** You can control the player through the widget, but changes made directly in the browser may not always sync back perfectly to the widget.
-* **Beta Features:** Repeat and Shuffle functions are currently in beta.
-* **Functionality:** Please note that the 'Reverse' (Previous) button has limited support depending on the browser state.
+## Installation
 
----
+1. Install Rainmeter.
+2. Install the WebNowPlaying Companion browser extension.
+3. Download and install the SimpleMusicPlayer Rainmeter skin package.
+4. Open YouTube Music in your browser.
+5. Load either `SimpleMusicPlayer.ini` or `Vertical.ini` from Rainmeter.
 
-## 🔄 Update History
+## Layouts
 
-### **v3.0**
-* **Added:** New **Vertical Mode** layout.
+| File | Purpose |
+| --- | --- |
+| `SimpleMusicPlayer/SimpleMusicPlayer.ini` | Horizontal player layout |
+| `SimpleMusicPlayer/Vertical.ini` | Vertical player layout |
+| `SimpleMusicPlayer/@Resources` | Fonts and shared resources |
 
-### **v2.0**
-* **Added:** Background options and Rating buttons.
-* **Fixed:** General bug fixes.
+## Notes
 
-### **v1.2.1**
-* **Improved:** Font sizes, styles, and visualizer sensitivity/height.
+- Browser-to-widget sync can depend on the current WebNowPlaying browser state.
+- Repeat and shuffle are beta features.
+- Previous-track behavior can be limited by the browser player's current queue
+  state.
 
-### **v1.2**
-* **Added:** Integrated Audio Visualizer.
-* **Improved:** Redesigned Title, Author, and Progress Bar layout.
+## Release History
 
-### **v1.1**
-* **Added:** Repeat and Shuffle buttons (Beta).
-* **Fixed:** Next button bugs.
+| Version | Changes |
+| --- | --- |
+| `v3.0` | Added vertical mode layout |
+| `v2.0` | Added background options and rating buttons; fixed general issues |
+| `v1.2.1` | Improved font sizing, styles, visualizer sensitivity, and height |
+| `v1.2` | Added integrated audio visualizer and redesigned player information |
+| `v1.1` | Added repeat and shuffle beta controls; fixed next button behavior |
 
----
+## Download
 
-## 🚀 Installation
-1. Install the latest version of [Rainmeter](https://www.rainmeter.net/).
-2. Install the **WebNowPlaying Companion** extension in your Chrome/Edge browser.
-3. Download the `.rmskin` file and run the installer.
-4. Open YouTube Music in your browser and enjoy!
-
-DevientArtURL : https://www.deviantart.com/yujio03/art/SimpleMusicPlayer-3-0-1-1109940258
+- [DeviantArt release page](https://www.deviantart.com/yujio03/art/SimpleMusicPlayer-3-0-1-1109940258)
